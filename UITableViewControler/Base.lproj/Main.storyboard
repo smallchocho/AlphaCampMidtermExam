@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--現正上映-->
+        <!--本週新片-->
         <scene sceneID="b4W-p1-X93">
             <objects>
                 <tableViewController id="Y7o-W9-l89" customClass="RestaurantTableViewController" customModule="UITableViewControler" customModuleProvider="target" sceneMemberID="viewController">
@@ -62,7 +62,7 @@
                             <outlet property="delegate" destination="Y7o-W9-l89" id="7po-90-U8A"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="現正上映" id="5M2-gR-m3J"/>
+                    <navigationItem key="navigationItem" title="本週新片" id="5M2-gR-m3J"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f0g-lr-GNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -108,6 +108,15 @@
                                             <constraint firstItem="lnK-ag-XcD" firstAttribute="top" secondItem="mtX-WB-qRN" secondAttribute="top" constant="20" id="vBL-5k-XOd"/>
                                         </constraints>
                                     </view>
+                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="in9-39-wxN">
+                                        <rect key="frame" x="-8" y="490" width="375" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <items>
+                                            <tabBarItem id="h95-vp-0lZ"/>
+                                            <tabBarItem systemItem="more" id="nTO-5G-atK"/>
+                                        </items>
+                                    </tabBar>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="mtX-WB-qRN" firstAttribute="leading" secondItem="yOX-Fp-0ie" secondAttribute="leading" id="Ea9-U5-X2y"/>
