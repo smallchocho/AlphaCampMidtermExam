@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D04634941D968FD700718B9B /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09A01561D93F91E00634B48 /* MovieTableViewController.swift */; };
+		D05F64671DA7E95200C1E257 /* fansSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05F64661DA7E95200C1E257 /* fansSignViewController.swift */; };
 		D08EDC241D9CDFE9002DAC4F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08EDC231D9CDFE9002DAC4F /* Movie.swift */; };
 		D09A01451D93F86000634B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09A01441D93F86000634B48 /* AppDelegate.swift */; };
 		D09A014A1D93F86000634B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09A01481D93F86000634B48 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D05F64661DA7E95200C1E257 /* fansSignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fansSignViewController.swift; sourceTree = "<group>"; };
 		D08EDC231D9CDFE9002DAC4F /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D09A01411D93F86000634B48 /* UITableViewControler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewControler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09A01441D93F86000634B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				D08EDC231D9CDFE9002DAC4F /* Movie.swift */,
+				D05F64661DA7E95200C1E257 /* fansSignViewController.swift */,
 				D09A01561D93F91E00634B48 /* MovieTableViewController.swift */,
 				D09A01581D940D0900634B48 /* MovieTableViewCell.swift */,
 				D0CC6ADD1D9648D30014A6FC /* MovieDetailViewController.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08EDC241D9CDFE9002DAC4F /* Movie.swift in Sources */,
+				D05F64671DA7E95200C1E257 /* fansSignViewController.swift in Sources */,
 				D04634941D968FD700718B9B /* MovieTableViewController.swift in Sources */,
 				D09A01591D940D0900634B48 /* MovieTableViewCell.swift in Sources */,
 				D0CC6ADE1D9648D30014A6FC /* MovieDetailViewController.swift in Sources */,
